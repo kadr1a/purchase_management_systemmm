@@ -1,0 +1,3 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }} — Закупки{% endblock %}
+{% block content %}<h1>{{ product.name }}</h1><dl class="row"><dt class="col-sm-3">ID</dt><dd class="col-sm-9">{{ product.id }}</dd><dt class="col-sm-3">Цена</dt><dd class="col-sm-9">{{ product.price|floatformat:2 }} ₽</dd></dl><a href="{% url 'products:list' %}">← К списку товаров</a>{% endblock %}

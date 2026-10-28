@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "requester": "Петров П.П.",
+    "comment": "Оснащение рабочего места",
+    "status": "created",
+    "product_ids": [1, 2]
+  },
+  {
+    "id": 2,
+    "requester": "Сидорова А.А.",
+    "comment": "Комплект периферии",
+    "status": "created",
+    "product_ids": [3]
+  }
+]

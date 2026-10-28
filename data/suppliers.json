@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "ООО Поставка",
+    "contact_person": "Иван Иванов",
+    "phone": "+7 900 000-00-00",
+    "email": "info@postavka.example",
+    "address": "Москва"
+  },
+  {
+    "id": 2,
+    "name": "ООО ТехноСнаб",
+    "contact_person": "Анна Петрова",
+    "phone": "+7 900 111-11-11",
+    "email": "sales@technosnab.example",
+    "address": "Москва"
+  }
+]

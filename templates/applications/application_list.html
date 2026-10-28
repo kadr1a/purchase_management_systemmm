@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Заявки — Закупки{% endblock %}
+{% block content %}<h1>Заявки на закупку</h1>
+<div class="table-responsive"><table class="table table-striped"><thead><tr><th>ID</th><th>Заявитель</th><th>Комментарий</th><th>Статус</th></tr></thead><tbody>
+{% for application in applications %}<tr><td>{{ application.id }}</td><td>{{ application.requester }}</td><td>{{ application.description|default:"—" }}</td><td>{{ application.status }}</td></tr>
+{% empty %}<tr><td colspan="4">Заявки не найдены.</td></tr>{% endfor %}
+</tbody></table></div>{% endblock %}
